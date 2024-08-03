@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section {
+    @apply flex flex-col py-20 bg-[#212538] font-poppins;
+  }
+  .grid-card {
+    @apply gap-2 grid grid-cols-2 sm:grid-cols-4 pb-6 font-poppins;
+  }
+  .active {
+    @apply bg-slate-200 rounded-full text-slate-700 ;
+  }
+  .li-nav {
+    @apply hover:bg-white rounded-full p-4 text-white hover:text-slate-800 ;
+  }
+  .loader {
+    @apply w-screen h-screen bg-[#212538] flex mx-auto justify-center items-center text-white font-poppins
+  }
+  /* ... */
+}
