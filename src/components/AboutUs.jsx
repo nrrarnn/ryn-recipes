@@ -34,7 +34,7 @@ export const AboutUs = () => {
         </div> 
         <div className="flex mx-auto">
           <div className="absolute p-36 sm:p-52 rounded-full bg-[#e16162] z-30"></div>
-          <Image ref={imageRef} src="/src/assets/about.png" alt="About" className="w-[300px] sm:w-[500px] z-40"/>
+          <Image ref={imageRef} src="/assets/about.png" alt="About" className="w-[300px] sm:w-[500px] z-40"/>
         </div>
       </div>
     </>

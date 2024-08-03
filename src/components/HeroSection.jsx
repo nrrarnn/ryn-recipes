@@ -22,7 +22,7 @@ export const HeroSection = () => {
   return(
     <>
      <div className="relative flex justify-center items-center h-screen font-poppins" ref={container}>
-      <img src="/src/assets/bg-food3.jpg" className="w-full h-full object-cover absolute inset-0 z-0" alt="Background" />
+      <img src="/assets/bg-food3.jpg" className="w-full h-full object-cover absolute inset-0 z-0" alt="Background" />
       <div className="absolute inset-0 bg-black opacity-80 z-10"></div>
       <div className="relative z-20 p-6 text-white">
         <h1 className="text-3xl tracking-tight font-montserrat font-extrabold text-white sm:text-4xl md:text-5xl w-full max-w-[600px] text-center">
